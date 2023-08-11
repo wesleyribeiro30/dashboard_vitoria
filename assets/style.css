@@ -1,0 +1,58 @@
+/* Custom App CSS Below --------------------------------- */
+/* Fonts ––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.card {
+  margin-top: 10px;
+  box-shadow: 2px 2px 10px 0px rgba(10, 9, 7, 0.05);
+  background-image: url("https://addons-media.operacdn.com/media/CACHE/images/themes/65/72265/1.0-rev1/images/9fc12ee4-4fbb-460e-90cd-d83a2c7d6fe7/5453abc7bbda4c8f694b8183d7ec87e5.jpg");
+  /* Outras propriedades de estilização que você deseja aplicar à classe .card */
+}
+
+/* Estilo para o card transparente */
+.transparent-card {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* Estilo para a linha vertical */
+.vertical-line {
+  border-left: 1px solid orange;  /* Define a cor da borda como laranja */
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+/* Estilo da tabela */
+#table {
+  font-family: 'Arial, sans-serif';
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+#table th, #table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #dddddd;
+}
+
+#table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilo do gráfico */
+#grafico2 {
+  margin-top: 20px;
+  width: 100%;
+  background-color: transparent;
+}
